@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvhy7oypkne5c"]
+
+[ext_resource type="Texture2D" uid="uid://cq2bljdhro1ix" path="res://icon.svg" id="1_v3fy0"]
+[ext_resource type="Script" path="res://slot_tile.gd" id="2_d4wwv"]
+
+[node name="SlotTile" type="TextureRect"]
+self_modulate = Color(0.364706, 0.364706, 0.364706, 1)
+offset_right = 128.0
+offset_bottom = 128.0
+texture = ExtResource("1_v3fy0")
+script = ExtResource("2_d4wwv")
+
+[node name="Name" type="Label" parent="."]
+layout_mode = 0
+offset_right = 128.0
+offset_bottom = 128.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
